@@ -32,7 +32,7 @@ public class clase1 {
         this.nombreApaga = nombreApaga;
         this.porcentajeGas = porcentajeGas;
         this.elaboradoG = elaboradoG;
-        this.observacionesG = observacionesG;
+
         this.id = id;
         
         
@@ -110,13 +110,6 @@ public class clase1 {
         this.elaboradoG = elaboradoG;
     }
 
-    public String getObservacionesG() {
-        return observacionesG;
-    }
-
-    public void setObservacionesG(String observacionesG) {
-        this.observacionesG = observacionesG;
-    }
     
     
     
