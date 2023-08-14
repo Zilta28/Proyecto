@@ -17,13 +17,13 @@ public class clase1 {
     private String nombreApaga;
     private String porcentajeGas;
     private String elaboradoG;
-    private String observacionesG;
+    private String cd;
     
     public clase1(){
         
     }
 
-    public clase1(String noTanquegas, Date fecha, String horaEncendido, String horaApagado, String nombrePrende, String nombreApaga, String porcentajeGas, String elaboradoG, String observacionesG, int id) {
+    public clase1(String noTanquegas, Date fecha, String horaEncendido, String horaApagado, String nombrePrende, String nombreApaga, String porcentajeGas, String elaboradoG, String observacionesG, int id, String cd) {
         this.noTanquegas = noTanquegas;
         this.fecha = fecha;
         this.horaEncendido = horaEncendido;
@@ -32,11 +32,22 @@ public class clase1 {
         this.nombreApaga = nombreApaga;
         this.porcentajeGas = porcentajeGas;
         this.elaboradoG = elaboradoG;
-
+        this.cd = cd;
         this.id = id;
         
         
+
     }
+
+    public String getCd() {
+        return cd;
+    }
+
+    public void setCd(String cd) {
+        this.cd = cd;
+    }
+    
+
 
     public int getId() {
         return id;
